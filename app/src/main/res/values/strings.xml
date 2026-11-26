@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">iShredder Excellent</string>
+    <string name="brand_wordmark">PROTECTSTAR</string>
+    <string name="home_welcome_title">Welcome to iShredder</string>
+    <string name="home_welcome_subtitle">Start with Selective Erasing or search files in the File Explorer</string>
+    <string name="action_selective_erase">Selective Erase</string>
+    <string name="action_file_explorer">File Explorer</string>
+    <string name="action_factory_reset">Factory Reset</string>
+    <string name="action_security_2026">2026 Suite</string>
+    <string name="cd_settings">Open Settings</string>
+    <string name="cd_back">Navigate back</string>
+    <string name="cd_shredder_hero">iShredder secure device shredding illustration</string>
+    <string name="cd_method_info">Method specifications</string>
+    <string name="step_data">1. Data</string>
+    <string name="step_method">2. Method</string>
+    <string name="step_shred">3. Shred</string>
+    <string name="recommended_method_title">Recommended Method</string>
+    <string name="recommended_method_subtitle">(Based on selected data and device)</string>
+    <string name="all_methods_title">All Methods</string>
+    <string name="col_method">Method</string>
+    <string name="col_cycles">Cycles</string>
+    <string name="cta_open_summary">OPEN SUMMARY</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_theme_ui">Theme UI</string>
+    <string name="settings_general">General</string>
+    <string name="settings_general_sub">Passcode, Language</string>
+    <string name="settings_erasure">Erasure</string>
+    <string name="settings_erasure_sub">Skip scan, Default method, Free Space Overwrite, Enable Erasure Report, Thumbnail preview, Hidden files &amp; folders</string>
+    <string name="settings_report_history">Erasure Report History</string>
+    <string name="settings_manage_subscription">Manage Subscription</string>
+    <string name="settings_factory_reset">Factory Reset</string>
+    <string name="settings_security_2026">Excellent 2026 Suite</string>
+</resources>

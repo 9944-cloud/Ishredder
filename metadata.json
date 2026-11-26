@@ -1,0 +1,6 @@
+{
+  "name": "iShredder Excellent",
+  "description": "Military-grade secure data shredder, file explorer, and free-space wiper with certified erasure algorithms and local audit reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
