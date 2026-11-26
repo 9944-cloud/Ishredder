@@ -72,6 +72,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.BuildConfig
 import com.example.R
 import com.example.data.AppLanguage
 import com.example.data.AppSettings
@@ -259,6 +260,52 @@ fun SettingsRootScreen(
                     )
                 }
             }
+
+            Spacer(modifier = Modifier.height(16.dp))
+
+            // Stable Release Build Card
+            Surface(
+                shape = spec.cardShape,
+                color = spec.surfaceCard,
+                border = BorderStroke(spec.cardBorderWidth, spec.cardBorderColor),
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .testTag("settings_release_info_card")
+            ) {
+                Row(
+                    modifier = Modifier.padding(horizontal = 18.dp, vertical = 14.dp),
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        imageVector = Icons.Filled.VerifiedUser,
+                        contentDescription = null,
+                        tint = spec.accentBright,
+                        modifier = Modifier.size(22.dp)
+                    )
+                    Spacer(modifier = Modifier.width(12.dp))
+                    Column(modifier = Modifier.weight(1f)) {
+                        Text(
+                            text = "iShredder Excellent • Full Version Stable",
+                            style = MaterialTheme.typography.titleSmall,
+                            color = spec.textPrimary
+                        )
+                        Text(
+                            text = "v${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE}) • ${ErasureCatalog.allMethods.size} Algorithms • Android 5.0–17",
+                            fontFamily = JetBrainsMonoFontFamily,
+                            fontSize = 10.5.sp,
+                            color = spec.textSecondary
+                        )
+                        Text(
+                            text = BuildConfig.APPLICATION_ID,
+                            fontFamily = JetBrainsMonoFontFamily,
+                            fontSize = 10.sp,
+                            color = spec.textMuted
+                        )
+                    }
+                }
+            }
+
+            Spacer(modifier = Modifier.height(16.dp))
         }
     }
 }

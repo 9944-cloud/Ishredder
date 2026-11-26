@@ -16,8 +16,8 @@ android {
     applicationId = "com.aistudio.ishredder.kxmpzq"
     minSdk = 21
     targetSdk = 36
-    versionCode = 1
-    versionName = "1.0"
+    versionCode = 202601
+    versionName = "2026.1.0-stable"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
